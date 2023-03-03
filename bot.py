@@ -11,6 +11,7 @@ intents = discord.Intents().all()
 intents.message_content = True
 bot = discord.Bot()
 
+
 @bot.event
 async def on_ready():
     print("Logged in as a bot {0.user}".format(bot))
@@ -19,8 +20,11 @@ async def on_ready():
 async def first_slash(ctx): 
     await ctx.respond("You executed the slash command!")
 
+
 @bot.command(description="Sends the bot's latency.")
-async def test(ctx): 
+async def first_slash(ctx): 
     await ctx.respond("You executed the slash command!")
+
+
 
 bot.run(token)

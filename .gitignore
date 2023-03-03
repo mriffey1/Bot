@@ -1,2 +1,5 @@
 /.env
 /backup_bot_code.py
+main_bot.py
+__pycache__/discord.cpython-310.pyc
+__pycache__/discords.cpython-310.pyc
